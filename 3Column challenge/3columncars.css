@@ -1,0 +1,122 @@
+html{
+    max-height:100%;
+    max-width:100%;
+}
+img{
+    margin-left:10px;
+}
+.attribution {
+     font-size: 11px; text-align: center;
+     }
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     }
+button{
+    box-sizing:border-box;
+    padding:1em;
+    margin-top:5em;
+    margin-left:1em;
+    width:10em;
+    font-family: 'Lexend Deca', sans-serif;
+    color:hsla(0,0%, 100%, 0.75);
+    font-weight: bolder;
+    border-color: #fff;
+    border-style:solid;
+    
+}
+
+p {
+    color:hsla(0, 0%, 100%, 0.75);
+    text-align:left;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 25px;
+    margin-left:20px;
+    margin-right:18px;
+
+
+}
+
+h1{
+    color:hsla(0,0%, 100%, 0.75);
+    text-align:left;
+    font-family: 'Big Shoulders Display',cursive;
+    font-weight:bolder;
+    color:hsl(0, 0%, 95%);
+    line-height:40px;
+    margin-left:20px;
+    margin-top:20px;
+
+}
+body{
+    background:hsl(0, 0%, 95%);
+    font-size: 15px;
+    height:100%;
+    width:100%;
+    margin:0;
+
+}
+.col1{
+    background:hsl(31, 77%, 52%);
+    border-top-left-radius:3%;
+    border-bottom-left-radius: 3%;
+    padding:2em;
+    
+
+}
+.col2{
+    background:hsl(184, 100%, 22%);
+    padding:2em;
+
+}
+.col3{
+    background:hsl(179, 100%, 13%);
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%; 
+    padding:2em;
+}
+.columns{
+    column-count:3;
+    border-radius: 30px;
+    column-gap:0;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10%;
+    width:60%;
+    height: 150%;
+    padding-bottom:50%;
+
+
+    
+}
+.btn1{
+    border-radius:20px;
+    color:hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+  
+}
+.btn2{
+    border-radius:30px;
+    color:hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.btn3{
+    border-radius:20px;
+    color:hsl(179, 100%, 13%);
+    
+    font-family: 'Lexend Deca', sans-serif;
+}
+.btn1:hover{
+    color:white;
+    background:hsl(31, 77%, 52%);
+
+}
+
+.btn2:hover{
+    color:white;
+    background:hsl(184, 100%, 22%);
+
+}
+.btn3:hover{
+    color:white;
+    background:hsl(179, 100%, 13%);
+}
